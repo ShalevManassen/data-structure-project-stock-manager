@@ -4,7 +4,7 @@ public class KeyParameters<K extends Comparable<K>> implements Comparable<KeyPar
     private boolean isInfinity;
     private boolean isMinusInfinity;
 
-    // Constructors
+    // Constructors KeyParameters
     public KeyParameters(K key, boolean isInfinity, boolean isMinusInfinity) {
         this.key = key;
         this.isInfinity = isInfinity;
